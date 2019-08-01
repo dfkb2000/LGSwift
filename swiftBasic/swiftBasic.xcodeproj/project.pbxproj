@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		88D89E3F22F2CF1100EA0B7D /* 02基本运算符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D89E3E22F2CF1100EA0B7D /* 02基本运算符.swift */; };
+		88D89E4122F2DEF900EA0B7D /* 03字符串和字符.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D89E4022F2DEF900EA0B7D /* 03字符串和字符.swift */; };
 		9B9944B522F131EE00362DA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9944B422F131EE00362DA6 /* AppDelegate.swift */; };
 		9B9944BC22F131F000362DA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B9944BB22F131F000362DA6 /* Assets.xcassets */; };
-		9B9944CB22F1463400362DA6 /* 01BasicPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9944CA22F1463400362DA6 /* 01BasicPartViewController.swift */; };
+		9B9944CB22F1463400362DA6 /* 01基础部分.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9944CA22F1463400362DA6 /* 01基础部分.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		88D89E3E22F2CF1100EA0B7D /* 02基本运算符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02基本运算符.swift"; sourceTree = "<group>"; };
+		88D89E4022F2DEF900EA0B7D /* 03字符串和字符.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03字符串和字符.swift"; sourceTree = "<group>"; };
 		9B9944B122F131EE00362DA6 /* swiftBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B9944B422F131EE00362DA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B9944BB22F131F000362DA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B9944C022F131F000362DA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B9944CA22F1463400362DA6 /* 01BasicPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01BasicPartViewController.swift; sourceTree = "<group>"; };
+		9B9944CA22F1463400362DA6 /* 01基础部分.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01基础部分.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 		9B9944C622F1323C00362DA6 /* 第一天 */ = {
 			isa = PBXGroup;
 			children = (
-				9B9944CA22F1463400362DA6 /* 01BasicPartViewController.swift */,
+				9B9944CA22F1463400362DA6 /* 01基础部分.swift */,
+				88D89E3E22F2CF1100EA0B7D /* 02基本运算符.swift */,
+				88D89E4022F2DEF900EA0B7D /* 03字符串和字符.swift */,
 			);
 			path = "第一天";
 			sourceTree = "<group>";
@@ -143,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B9944CB22F1463400362DA6 /* 01BasicPartViewController.swift in Sources */,
+				88D89E3F22F2CF1100EA0B7D /* 02基本运算符.swift in Sources */,
+				9B9944CB22F1463400362DA6 /* 01基础部分.swift in Sources */,
+				88D89E4122F2DEF900EA0B7D /* 03字符串和字符.swift in Sources */,
 				9B9944B522F131EE00362DA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
