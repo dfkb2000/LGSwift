@@ -15,9 +15,25 @@ class StringAndCharacter: UIViewController {
 
         // MARK: 一、概述
         
-        
         // MARK: 二、字符串字面量
+//        let someString = "hello world"
         
+        // """ """ -> 多行字符串
+        
+        /* 字符串字面量的特殊字符:
+         1.转义字符:
+         \0(空字符)
+         \\(反斜线)
+         \t(水平制表符)
+         \n(换行符)
+         \r(回车符)
+         \"(双引号)
+         \'(单引号)
+         
+         2.Unicode 标量，写成 \u{n}(u 为小写)，其中 n 为任意一到八位十六进制数且可用的 Unicode 位码  
+ 
+         */
+
         // MARK: 三、初始化空字符串
         
         // MARK: 四、字符串可变性
